@@ -245,7 +245,6 @@ public class MainActivity extends Activity implements Runnable {
     public void onResume() {
         super.onResume();
 
-        Intent intent = getIntent();
         if (mInputStream != null && mOutputStream != null) {
             return;
         }
