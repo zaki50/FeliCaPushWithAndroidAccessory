@@ -1,0 +1,4 @@
+Android Open Accessory Development Kit(ADK) の Arduino 部分に、 FeliCa リーダ/ライタ(RC-S620/S) を接続して FeliCa Push を行うためのプログラムです。
+ADK を試すために作ったシンプルなものなので、自由に改造して発展させてください。
+
+License: Apache License 2.0

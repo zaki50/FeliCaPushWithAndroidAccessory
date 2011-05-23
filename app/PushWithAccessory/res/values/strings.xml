@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear">消去</string>
+    <string name="send">送信</string>
+    <string name="enter_url">URL</string>
+    <string name="no_device">アクセサリを接続してください！</string>
+    <string name="empty_url">URLが空なので送信できません。</string>
+    <string name="app_name">PushWithAccessory</string>
+</resources>

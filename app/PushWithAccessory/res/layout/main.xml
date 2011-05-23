@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<EditText
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="http://developer.android.com/"
+	    android:hint="@string/enter_url"
+        android:id="@+id/url"
+	    />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    >
+	    <Button
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="@string/clear"
+        android:id="@+id/clear_button"
+        android:onClick="onClickClearButton"
+	    />
+	    <Button
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+        android:layout_weight="1"
+	    android:text="@string/send"
+	    android:id="@+id/send_button"
+	    android:onClick="onClickSendButton"
+	    />
+    </LinearLayout>
+</LinearLayout>
